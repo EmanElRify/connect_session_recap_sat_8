@@ -51,3 +51,6 @@ def view_account_details(account):
     print_pause(f"The user name is {account["name"]}")
     print_pause(f"The user email is {account["email"]}")
     print_pause(f"The user balance is {account["balance"]}")
+
+if __name__ == "__main__":
+    print("Hello")
